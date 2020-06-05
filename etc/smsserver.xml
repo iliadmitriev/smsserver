@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    
+    <!--sms servers settings-->
+    <sms-servers>
+        <server>
+            <channel>dev_channel</channel>
+                <host>localhost</host>
+                <send-port>2775</send-port>
+                <recieve-port>2775</recieve-port>
+                <username>preprp</username>
+                <password>password</password>
+                <source-addr>channel1</source-addr>
+                <source-addr-ton>1</source-addr-ton>
+                <source-addr-npi>1</source-addr-npi>
+                <dest-addr-ton>1</dest-addr-ton>
+                <dest-add-npi>1</dest-add-npi>
+                <system-type>VMA</system-type>
+                <message-per-second>40</message-per-second>
+                <reconnect-timeout>30</reconnect-timeout>
+                <enquire-link-interval>60</enquire-link-interval>
+                <is-fake-channel>true</is-fake-channel>
+        </server>
+    </sms-servers>
+    <channel-users>
+        <user>
+                <username>dev_user</username>
+                <password>dev_pass</password>
+                <channel>dev_channel</channel>
+        </user>
+    </channel-users>
+    <!--rabbit-->
+    <rabbit-host>rabbitmq</rabbit-host>
+    <rabbit-port>5672</rabbit-port>
+    <rabbit-vhost>/</rabbit-vhost>
+    <rabbit-queue>message</rabbit-queue>
+    <rabbit-user>guest</rabbit-user>
+    <rabbit-password>guest</rabbit-password>
+    <!--redis-->
+    <redis-max-pool>30</redis-max-pool>
+    <redis-timeout>10</redis-timeout>
+    <redis-host>redis</redis-host>
+    <redis-port>6379</redis-port>
+    <redis-db>4</redis-db>
+    <!--http -->
+    <http-address>0.0.0.0</http-address>
+    <http-port>13003</http-port>
+    <http-min-pool>10</http-min-pool>
+    <http-max-pool>20</http-max-pool>
+    <http-out-buffer>32768</http-out-buffer>
+    <http-req-header>8192</http-req-header>
+    <http-res-header>8192</http-res-header>
+
+</configuration>
