@@ -10,7 +10,7 @@
 
 
     <properties>
-        <jetty.version>9.1.0.M0</jetty.version>
+        <jetty.version>11.0.0.beta3</jetty.version>
         <jetty.jsp.version>9.1.0.M0</jetty.jsp.version>
         <jstl.version>1.2</jstl.version>
         <spring.version>3.2.4.RELEASE</spring.version>
