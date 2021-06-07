@@ -21,7 +21,7 @@
         <common-daemons.version>1.0.15</common-daemons.version>
         <common-cli.version>1.2</common-cli.version>
         <commons-configuration.version>1.9</commons-configuration.version>
-        <logback.version>1.0.13</logback.version>
+        <logback.version>1.2.0</logback.version>
         <jackson.version>2.2.3</jackson.version>
         <jedis.version>2.2.1</jedis.version>
         <testng.version>6.8.7</testng.version>
