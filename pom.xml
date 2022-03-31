@@ -13,7 +13,7 @@
         <jetty.version>9.1.0.M0</jetty.version>
         <jetty.jsp.version>9.1.0.M0</jetty.jsp.version>
         <jstl.version>1.2</jstl.version>
-        <spring.version>3.2.4.RELEASE</spring.version>
+        <spring.version>5.3.18</spring.version>
         <spring.security.version>3.2.0.RC1</spring.security.version>
         <tiles.version>3.0.1</tiles.version>
         <opensmpp.version>3.0.0</opensmpp.version>
